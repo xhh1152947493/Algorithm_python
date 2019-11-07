@@ -4,6 +4,7 @@ def selection_sort(List: list):
     第二次遍历n-2个数，找到最小的数值与第二个元素交换；
     。。。
     第n-1次遍历，找到最小的数值与第n-1个元素交换，排序完成。
+    时间复杂度：O(n2)
     """
     for i in range(len(List)-1):
         min_index = i
