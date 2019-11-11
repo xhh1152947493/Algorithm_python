@@ -18,9 +18,11 @@ def selection_sort(List: list):
 
 if __name__ == "__main__":
     from test import Test
-    test_date = Test().test_date()
-    for value in test_date:
+    test_data = Test().test_data()
+    for value in test_data:
+        print(value)
         print(selection_sort(value))
+        print('\n')
 
 """
 [32, 38, 39, 46, 61, 80, 83, 83, 87, 92]

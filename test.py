@@ -8,7 +8,7 @@ class Test:
         self.min_ = min_
         self.max_ = max_
 
-    def test_date(self):
+    def test_data(self):
         res = []
         for _ in range(self.row):
             tmp = []
